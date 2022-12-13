@@ -9,35 +9,87 @@
 </head>
 <body>
   <header>
-    <h1>Fresno's Motown Night</h1></header>
+    <h1>Fresno's Motown Night</h1>
+    <h2>est. 2014</h2></header>
   <nav class="mynavbar">
     <ul>
         <img class="logo" src="./img/notown_logo-no-bg.png">
-            <a href="#home" target="_blank"><li>home</li></a>
-            <a href="#contact" target="_blank"><li>contact</li></a>
-            <a href="#about">
-                <li>about</li>
+        <a href="https://www.facebook.com/fresnosmotownnight/">
+            <i class="fa-brands fa-facebook fa-envelope fa-2x"></i>
             </a>
+        <a href="https://www.instagram.com/fresnomotownnight/">
+            <i class="fa-brands fa-instagram fa-envelope fa-2x"></i>
+            </a>
+        <a href="https://twitter.com/motownnight559">
+            <i class="fa-brands fa-twitter fa-envelope fa-2x"></i>
+            </a>
+            <a href="#home"><li>gallery</li></a>
+            <a href="#contact"><li>contact</li></a>
+            <a href="#about"><li>about</li></a>
         </ul>
     </nav>
 <main id=main>
-  <div class="heroText">
-    <p class="heroText">Come out to our <a href="https://www.facebook.com/fresnosmotownnight/" target="_blank">next show!</a></p><button href="https://www.facebook.com/fresnosmotownnight/" target="_blank">At Strummer's</button>
+    <div class="heroText">
+        <p class="heroTextp">Come out to our <a href="https://www.facebook.com/fresnosmotownnight/" target="_blank">next show!</a></p>
+        <button href="https://www.facebook.com/fresnosmotownnight/" target="_blank">at <a href="http://www.strummersclub.com" target="_blank">Strummer's</a></button>
         </div>
+    <div id="gallery" class="gallery">
+        <img src="img/motown-b&w-collage.jpg" alt="a collage of motown artists">
+        <img src="img/motown-marvin-wireframe.jpg" alt="an old flyer for motown night">
+        <img src="img/motown-record-imprint.jpg" alt="an old flyer in the style of motown">
+      <img src="img/Martha-And-The-Vandellas-Dancing-In-The-Street.jpg" alt="">
+      <img src="img/mcneely-playing-sax-on-his-back.jpg" alt="a kitten">
+      <img src="img/young-mj.jpg" alt="">
+      <img src="img/stevie-wonder-photo-by-david-redfern.jpg" alt="">
+      <img src="img/nov2019.jpg" alt="">
+      <img src="img/MotownNightJuly2015.jpg" alt="">
+    </div>
     </main>
-      <section id="contact" class="contact">
+    <article id="contact" class="contact">
         <h2>CONTACT</h2>
-        </section>
-      <article id="about">
+        <p>Please fill out this form with the required information</p>
+        <form method="post" action='https://register-demo.freecodecamp.org'>
+            <fieldset>
+            <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+            <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            </fieldset>
+            <fieldset>
+            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+            </label>
+            </fieldset>
+            <fieldset>
+            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+            <label for="referrer">How did you hear about us?
+            <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Facebook</option>
+            <option value="2">Instagram</option>
+            <option value="3">Word of Mouth</option>
+            <option value="4">Other</option>
+                </select>
+            </label>
+            <label for="bio">Provide a bio:
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+            </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+            </form>
+    </article>
+    <article id="about">
         <h2>ABOUT</h2>
+        <p>Est in 2014, we are Fresno's longest running event dedicated to soul! We host a live band and DJ's!</p>
         </article>
     <footer>
         <div class="footerCol">
             <ul>
-                <a href="">
-                    <li>Home</li>
+                <a href="#gallery">
+                    <li>Gallery</li>
                     </a>
-                    <a href="">
+                    <a href="#contact">
                         <li>Contact</li>
                     </a>
                     <a href="#about">
@@ -56,7 +108,7 @@
             <a href="https://www.instagram.com/fresnomotownnight/">
                 <i class="fa-brands fa-instagram fa-envelope fa-2x"></i>
                 </a>
-            <a href="">
+            <a href="https://twitter.com/motownnight559">
                 <i class="fa-brands fa-twitter fa-envelope fa-2x"></i>
                 </a>
             </div>
