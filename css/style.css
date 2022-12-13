@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    min: 90px;
+    padding: 10px;
+    background-color: black;
+    text-align: right;
+    color: #ff5900;
+}
+nav{
+    width: 100%;
+    height: 76px;
+    background: linear-gradient(to right,red,orange,yellow,green);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 80px;
+    padding:5px 5px 5px 5px;
+    float: left;
+ }
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+nav ul a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 25px 0px 31px 10px;
+}
+nav ul a:hover{
+    color: cadetblue;
+    background-color: black;
+}
+nav ul a:active{
+    color: red;
+    background-color: white;
+}
+nav ul a:visited {
+    color:blue;
+    background-color: white;
+}
+nav ul a li{
+    margin: 25px;
+    display: inline-block;
+}
+main{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/final-project/img/motown-b&w-collage.jpg);
+    background-size: auto;
+    background-position: center;
+}
+.heroText{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    background-color: #ff5900;
+    /*These 4 lines CENTERS ALL STUFF*/
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*ALLL STUFF*/
+}
+.heroText button{
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px 2px rgba(255, 255, 255, 0.445);
+    margin: 0;
+    z-index: 3;
+}
+.heroText a{
+  text-decoration: none;
+}
+.heroText p{
+    top: 35%;
+  }
+section, article{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #ff5900;
+    background-color: black;
+    clear: both;
+}
+footer{
+    width: 100%;
+    height: 225px;
+    font-weight: bold;
+    background: linear-gradient(to right,red,orange,yellow,green);
+}
+.footerCol{
+  width: 33%;
+  height: 180px;
+  padding: 0;
+  border:1px solid black;
+  border-bottom: none;
+  float: left;
+  text-align: center;
+}
+
+.footerCol ul{
+    list-style-type: none;
+    position: relative;
+    top: 20%;
+}
+.footerCol ul a{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 25px;
+}
+.footerCol ul a:hover{
+    color: skyblue;
+}
+.footerCol ul a:active{
+    color: crimson;
+}
+.footerCol p{
+    color: black;
+    position: relative;
+    top: 50%;
+}
+.footerCol a i{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 35%;
+    margin: 15px;
+}

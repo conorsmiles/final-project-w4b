@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 2px solid black;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: chartreuse;
+    text-align: center;
+}
+header h1{
+    margin: 15px 0;
+
+}
+nav{
+    width:100%;
+    height: 80px;
+    background-color: aqua;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 29px 30px;
+}
+nav ul a:hover{
+    color: cadetblue;
+    background-color: black;
+}
+nav ul a:active{
+    color: red;
+    background-color: white;
+}
+nav ul a li{
+    margin: 25px;
+    display: inline-block;
+}
