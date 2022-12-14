@@ -13,12 +13,12 @@ header{
     padding: 10px;
     background-image: url(/final-project-w4b/img/motown-the-groups-featured.jpg);
     background-color: black;
-    text-align: left;
+    text-align: right;
     color: #ff5900;
 }
 header h1{
     background-color: black;
-    float: left;
+    float: right;
     padding: 5px;
     border-radius: 5px;
 }
@@ -26,8 +26,8 @@ header h2{
     background-color: black;
     padding: 5px;
     border-radius: 5px;
-    clear: left;
-    float: left;
+    clear: right;
+    float: right;
 }
 nav{
     width: 100%;
