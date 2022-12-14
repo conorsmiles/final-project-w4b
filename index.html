@@ -28,9 +28,9 @@
         </li>
     </ul>
     <ul>
-            <a href="#home"><li>gallery</li></a>
-            <a href="#contact"><li>contact</li></a>
+            <a href="#main"><li>gallery</li></a>
             <a href="#about"><li>about</li></a>
+            <a href="#contact"><li>contact</li></a>
             </ul>
     </nav>
 <main id=main>
@@ -39,35 +39,50 @@
         <button href="https://www.facebook.com/fresnosmotownnight/" target="_blank">at <a href="http://www.strummersclub.com" target="_blank">Strummer's</a></button>
         </div>
     <div id="gallery" class="gallery">
-        <img src="img/motown-b&w-collage.jpg" alt="a collage of motown artists">
+        <img src="img/IMG_0667.jpg" alt="">
+        <img src="img/IMG_0705.jpg" alt="">
+        <img src="img/5U6A2320.jpg" alt="">
+        <img src="img/Martha-And-The-Vandellas-Dancing-In-The-Street.jpg" alt="">
+        <img src="img/mcneely-playing-sax-on-his-back.jpg" alt="a kitten">
+        <img src="img/young-mj.jpg" alt="">
+        <img src="img/stevie-wonder-photo-by-david-redfern.jpg" alt="">
+        <img src="img/Monthly Motown- Notones.jpg" alt="">
+        <img src="img/5U6A2274.jpg" alt="">
+        <img src="img/IMG_0702.jpg" alt="">
+        <img src="img/Leonard+Don Notown.jpg" alt="">
+        <img src="img/Motown_Stevie_Instagram.jpg" alt="an old flyer for motown night">
+        <img src="img/Motown_February2017_Diana_FB.jpg" alt="">
+        <img src="img/Motown_Card_Smokey-page-001.jpg" alt="">
         <img src="img/motown-marvin-wireframe.jpg" alt="an old flyer for motown night">
         <img src="img/motown-record-imprint.jpg" alt="an old flyer in the style of motown">
-      <img src="img/Martha-And-The-Vandellas-Dancing-In-The-Street.jpg" alt="">
-      <img src="img/mcneely-playing-sax-on-his-back.jpg" alt="a kitten">
-      <img src="img/young-mj.jpg" alt="">
-      <img src="img/stevie-wonder-photo-by-david-redfern.jpg" alt="">
-      <img src="img/nov2019.jpg" alt="">
-      <img src="img/MotownNightJuly2015.jpg" alt="">
+        <img src="img/MonthlyMotown.jpg" alt="">
+        <img src="img/Motown_December (1).jpg" alt="">
+        </div>
+    <div class="gallery">
+        <video src="img/motown promo.mp4" controls></video>
+        <video src="img/Old Promo Fresno's Motown Night at Audies.mp4" controls></video>
     </div>
     </main>
+    <article id="about">
+        <h2>ABOUT</h2>
+        <p>Est in 2014, we are Fresno's longest running event dedicated to soul! We host a live band and DJ's!</p>
+        </article>
     <article id="contact" class="contact">
         <h2>CONTACT</h2>
         <p>Please fill out this form with the required information</p>
-        <form method="post" action='https://register-demo.freecodecamp.org'>
+        <form id="contact" method="post" action="">
             <fieldset>
-            <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-            <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-            <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+            <label for="first-name"> First Name: <input id="first-name" name="first-name" type="text" required /></label><br>
+            <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text" required /></label><br>
+            <label for="email"> Email: <input id="email" name="email" type="email" required /></label>
             </fieldset>
             <fieldset>
-            <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
-            <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
-            <label for="terms-and-conditions" name="terms-and-conditions">
-            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-            </label>
+            <label for="DJ_Artist"><input id="DJ_Artist" type="radio" name="client-type" class="inline" /> I am a DJ or Artist! </label><br>
+            <label for="fan"><input id="fan" type="radio" name="client-type" class="inline" /> I am a Fan! </label><br>
+            <label for="both_type"><input id="both_type" type="radio" name="client-type" class="inline" /> I am both! </label>
             </fieldset>
             <fieldset>
-            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+            <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label><br>
             <label for="referrer">How did you hear about us?
             <select id="referrer" name="referrer">
             <option value="">(select one)</option>
@@ -76,29 +91,25 @@
             <option value="3">Word of Mouth</option>
             <option value="4">Other</option>
                 </select>
-            </label>
-            <label for="bio">Provide a bio:
+            </label><br>
+            <label for="bio">Tell us about yourself:
             <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
             </label>
             </fieldset>
             <input type="submit" value="Submit" />
             </form>
     </article>
-    <article id="about">
-        <h2>ABOUT</h2>
-        <p>Est in 2014, we are Fresno's longest running event dedicated to soul! We host a live band and DJ's!</p>
-        </article>
     <footer>
         <div class="footerCol">
             <ul>
                 <a href="#gallery">
                     <li>Gallery</li>
                     </a>
-                    <a href="#contact">
-                        <li>Contact</li>
-                    </a>
                     <a href="#about">
                         <li>About</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
                     </a>
                 </ul>
             </div>
