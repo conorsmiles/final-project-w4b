@@ -11,7 +11,7 @@ header{
     height: 100px;
     min-height: 90px;
     padding: 10px;
-    background-image: url(/final-project-w4b/img/motown-the-groups-featured.jpg);
+    background-image: url("/final-project-w4b/img/motown-the-groups-featured.jpg");
     background-color: black;
     text-align: right;
     color: #ff5900;
